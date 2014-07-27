@@ -66,6 +66,9 @@ ActiveRecord::Schema.define(version: 20140726141354) do
     t.decimal "Basic_GOAV5",           precision: 10, scale: 2
     t.decimal "GOAV5",                 precision: 10, scale: 2
     t.decimal "Others_GOAV5",          precision: 10, scale: 2
+    t.decimal "Basic_GOAV12",          precision: 10, scale: 2
+    t.decimal "GOAV12",                precision: 10, scale: 2
+    t.decimal "Others_GOAV12",         precision: 10, scale: 2
   end
 
 end

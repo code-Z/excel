@@ -4,4 +4,10 @@
   <%= submit_tag "Import" %>
 <% end %>
 
+<p>
+  Download:
+  <%= link_to "CSV", workbooks_path(format: "csv") %> |
+  <%= link_to "Excel", workbooks_path(format: "xls") %>
+</p>
+
 <%= @row %>

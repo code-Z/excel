@@ -1,0 +1,14 @@
+<table border="1">
+  <tr>
+    <% @workbooks.attribute_names.each do |n| %>
+      <th><%= n %></th>
+    <% end %>
+  </tr>
+  <% @workbooks.each do |workbook| %>
+  <tr>
+    <% @workbooks.attribute_names.each do |n| %>
+      <td><%= workbook[n] %></td>
+    <% end %>
+  </tr>
+  <% end %>
+</table>
